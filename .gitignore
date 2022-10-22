@@ -1,0 +1,5 @@
+# directories
+src/node_modules
+
+# files
+src/package-lock.json

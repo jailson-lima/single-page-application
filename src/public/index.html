@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/main.css">
+   <title>Single Page Application</title>
+</head>
+<body>
+   <!-- Application -->
+   <div id="app">
+      <!-- Dashboard -->
+      <div id="dashboard" class="view">
+         <h1>Dashboard</h1>
+         <a href="/task" data-link>Task</a>
+      </div>
+      <!-- Task -->
+      <div id="task" class="view">
+         <h1>Task</h1>
+         <a href="/settings" data-link>Settings</a>
+      </div>
+      <!-- TaskItem -->
+      <div id="task-item" class="view">
+         <h1>Task Item <span id="task-item__id"></span></h1>
+         <a href="/settings" data-link>Settings</a>
+      </div>
+      <!-- Settings -->
+      <div id="settings" class="view">
+         <h1>Settings</h1>
+         <a href="/" data-link>Dashboard</a>
+      </div>
+   </div>
+
+   <script type="module" src="/js/application.js"></script>
+</body>
+</html>

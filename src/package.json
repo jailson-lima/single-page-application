@@ -1,0 +1,20 @@
+{
+   "name": "application",
+   "version": "0.0.0",
+   "description": "",
+   "author": "",
+   "license": "",
+   "private": false,
+   "type": "module",
+   "scripts": {
+      "start": "node application.js",
+      "dev": "nodemon application.js",
+      "build": "node launch.js"
+   },
+   "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.1",
+      "nodemon": "^2.0.20",
+      "winston": "^3.8.2"
+   }
+}
