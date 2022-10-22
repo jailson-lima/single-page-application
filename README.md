@@ -2,7 +2,7 @@
 
 This repository contains a _static file server_ and a _frontend template_ for **single-page application** (SPA) projects, developed in **JavaScript Vanilla** (no framework).
 
-> [Versão em português](https://github.com/jailson-math/single-page-application/README.pt.md)
+> [Versão em português](https://github.com/jailson-math/single-page-application/blob/main/README.pt.md)
 
 ## Project structure
 
@@ -99,7 +99,7 @@ app.navigate("/task")
 Or by typing the full _URL_ of the route into the _address bar_ of the browser. For example:
 
 ```
-http://localhost:3000/tasks
+http://localhost:3000/task
 ```
 
 **Anchoring via the hash in the URL:**
